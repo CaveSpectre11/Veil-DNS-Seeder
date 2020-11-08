@@ -34,10 +34,10 @@
 
 #define MIN_RETRY 1000
 
-static const int MAINNET_REQUIRE_VERSION = 70027;
-static const int TESTNET_REQUIRE_VERSION = 70025;
+static const int MAINNET_REQUIRE_VERSION = 70028;
+static const int TESTNET_REQUIRE_VERSION = 70028;
 
-static const int MAINNET_REQUIRE_HEIGHT = 450000;
+static const int MAINNET_REQUIRE_HEIGHT = 930000;
 static const int TESTNET_REQUIRE_HEIGHT = 0;
 
 static inline int GetRequireHeight(const bool mainnet = fMainNet)
