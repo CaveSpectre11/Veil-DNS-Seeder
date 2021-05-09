@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2011-2018 The Bitcoin Core developers
 // Copyright (c) 2011-2018 Bitcoin Developers
-// Copyright (c) 2019 The Veil Developers
+// Copyright (c) 2019-2021 The Veil Developers
 /*
 ** Permission is hereby granted, free of charge, to any person obtaining a copy
 ** of this software and associated documentation files (the "Software"), to deal
@@ -79,7 +79,7 @@ class CDataStream;
 class CAutoFile;
 static const unsigned int MAX_SIZE = 0x02000000;
 
-static const int PROTOCOL_VERSION = 70028;
+static const int PROTOCOL_VERSION = 70029;
 
 // Used to bypass the rule against non-const reference to temporary
 // where it makes sense with wrappers such as CFlatData or CTxDB

@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2018 The Bitcoin Core developers
 // Copyright (c) 2009-2018 Bitcoin Developers
-// Copyright (c) 2019 The Veil Developers
+// Copyright (c) 2019-2021 The Veil Developers
 /*
 ** Permission is hereby granted, free of charge, to any person obtaining a copy
 ** of this software and associated documentation files (the "Software"), to deal
@@ -34,10 +34,10 @@
 
 #define MIN_RETRY 1000
 
-static const int MAINNET_REQUIRE_VERSION = 70028;
-static const int TESTNET_REQUIRE_VERSION = 70028;
+static const int MAINNET_REQUIRE_VERSION = 70029;
+static const int TESTNET_REQUIRE_VERSION = 70029;
 
-static const int MAINNET_REQUIRE_HEIGHT = 930000;
+static const int MAINNET_REQUIRE_HEIGHT = 1212091;
 static const int TESTNET_REQUIRE_HEIGHT = 0;
 
 static inline int GetRequireHeight(const bool mainnet = fMainNet)
